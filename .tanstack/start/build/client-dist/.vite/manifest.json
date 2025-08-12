@@ -1,0 +1,117 @@
+{
+  "../../../../../../../../../../~start/default-client-entry.tsx": {
+    "file": "assets/main-BiHJe83k.js",
+    "name": "main",
+    "src": "../../../../../../../../../../~start/default-client-entry.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/routes/signup.tsx?tsr-split=component",
+      "src/routes/login.tsx?tsr-split=component",
+      "src/routes/_authed.tsx?tsr-split=errorComponent",
+      "src/routes/index.tsx?tsr-split=component",
+      "src/routes/_authed/posts.tsx?tsr-split=component",
+      "src/routes/_authed/posts.index.tsx?tsr-split=component",
+      "src/routes/_authed/posts.$postId.tsx?tsr-split=notFoundComponent",
+      "src/routes/_authed/posts.$postId.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/app-D9-A5wwt.css"
+    ]
+  },
+  "C:/Users/Home1/Desktop/adeagle/REACT-demo/tan/router/examples/react/start-supabase-basic-retry/src/styles/app.css": {
+    "file": "assets/app-D9-A5wwt.css",
+    "src": "C:/Users/Home1/Desktop/adeagle/REACT-demo/tan/router/examples/react/start-supabase-basic-retry/src/styles/app.css"
+  },
+  "_Auth-Bb1Mtbrj.js": {
+    "file": "assets/Auth-Bb1Mtbrj.js",
+    "name": "Auth",
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "_Login-Ba-FqnYn.js": {
+    "file": "assets/Login-Ba-FqnYn.js",
+    "name": "Login",
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx",
+      "_Auth-Bb1Mtbrj.js"
+    ]
+  },
+  "src/routes/_authed.tsx?tsr-split=errorComponent": {
+    "file": "assets/_authed-CX9avXOx.js",
+    "name": "_authed",
+    "src": "src/routes/_authed.tsx?tsr-split=errorComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx",
+      "_Login-Ba-FqnYn.js",
+      "_Auth-Bb1Mtbrj.js"
+    ]
+  },
+  "src/routes/_authed/posts.$postId.tsx?tsr-split=component": {
+    "file": "assets/posts._postId-NvrB-VuS.js",
+    "name": "posts._postId",
+    "src": "src/routes/_authed/posts.$postId.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "src/routes/_authed/posts.$postId.tsx?tsr-split=notFoundComponent": {
+    "file": "assets/posts._postId-BjRLatNj.js",
+    "name": "posts._postId",
+    "src": "src/routes/_authed/posts.$postId.tsx?tsr-split=notFoundComponent",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "src/routes/_authed/posts.index.tsx?tsr-split=component": {
+    "file": "assets/posts.index-5e0F9zJO.js",
+    "name": "posts.index",
+    "src": "src/routes/_authed/posts.index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "src/routes/_authed/posts.tsx?tsr-split=component": {
+    "file": "assets/posts-DCKnkEdF.js",
+    "name": "posts",
+    "src": "src/routes/_authed/posts.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-BdxvO5V3.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx"
+    ]
+  },
+  "src/routes/login.tsx?tsr-split=component": {
+    "file": "assets/login-uw3VLzuE.js",
+    "name": "login",
+    "src": "src/routes/login.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx",
+      "_Login-Ba-FqnYn.js",
+      "_Auth-Bb1Mtbrj.js"
+    ]
+  },
+  "src/routes/signup.tsx?tsr-split=component": {
+    "file": "assets/signup-Cegm4yyG.js",
+    "name": "signup",
+    "src": "src/routes/signup.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "../../../../../../../../../../~start/default-client-entry.tsx",
+      "_Auth-Bb1Mtbrj.js"
+    ]
+  }
+}

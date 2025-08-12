@@ -1,6 +1,7 @@
 import { parseCookies, setCookie } from '@tanstack/react-start/server'
 import { createServerClient } from '@supabase/ssr'
 
+
 export function getSupabaseServerClient() {
   return createServerClient(
     process.env.SUPABASE_URL!,

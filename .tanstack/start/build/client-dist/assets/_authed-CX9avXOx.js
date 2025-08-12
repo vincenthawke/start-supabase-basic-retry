@@ -1,0 +1,1 @@
+import{j as t}from"./main-BiHJe83k.js";import{L as r}from"./Login-Ba-FqnYn.js";import"./Auth-Bb1Mtbrj.js";const s=({error:o})=>{if(o.message==="Not authenticated")return t.jsx(r,{});throw o};export{s as errorComponent};
